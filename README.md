@@ -30,4 +30,29 @@ iOS:
 - VoiceOver - check Settings
 - [Accessibility Inspector](https://zonneveld.dev/accessibility-inspector/)
 
+### Android links
 
+- https://developer.android.com/guide/topics/ui/accessibility/apps
+- https://codelabs.developers.google.com/codelabs/basic-android-accessibility/#0
+  - codelabs github repo https://github.com/googlecodelabs/android-accessibility 
+- https://developer.android.com/guide/topics/ui/accessibility/testing
+- https://www.google.com/accessibility/for-developers/
+
+#### TalkBack with ADB
+- turn ON
+
+      adb shell settings put secure enabled_accessibility_services
+      com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService
+
+- turn OFF
+
+      adb shell settings put secure enabled_accessibility_services
+      com.android.talkback/com.google.android.marvin.talkback.TalkBackService
+
+### iOS Links
+
+- https://developer.apple.com/videos/play/wwdc2019/257/
+- https://developer.apple.com/documentation/accessibility/supporting_voiceover_in_your_app
+
+
+[Apple WWDC 2022 - What's new in web accessibility](https://developer.apple.com/videos/play/wwdc2022/10153/)
